@@ -1,4 +1,10 @@
 /*
+ *Global Global Global Global Global Global Global  
+ */
+body {
+	background: rgb(252,252,252);
+}
+/*
  *Navigation Navigation Navigation Navigation Navigation 
  */
 #nav {
@@ -28,14 +34,14 @@
 	margin-bottom:110px;
 }
 
-.logo #square {
+#home_logo #square {
 	width: 143px;
 	height: 143px;
 	background: rgb(207,87,85);
 	display:inline-block;
 }
 
-.logo #abbreviation {
+#home_logo #abbreviation {
 	width: 100%;
 	height: 93%;
 	padding-top:7%;
@@ -56,13 +62,26 @@
  */
 
 #team_logo {
-/*	margin-top:40px;
-	margin-bottom:90px;*/
 	margin-top:80px;
 	margin-bottom:90px;
 }
 
+#team_logo #square {
+	width: 270px;
+	height: 143px;
+	background: rgb(207,87,85);
+	display:inline-block;
+}
+
+#team_logo #abbreviation {
+	width: 100%;
+	height: 97%;
+	padding-top:3%;
+	text-align: center;
+}
+
 #team_logo #remaining_words {
+	padding-left: 7px;
 	display:inline-block;
 }
 
@@ -79,4 +98,90 @@
 	margin-bottom:5px;
 }
 
+/*
+ *Service Service Service Service Service Service Service Service 
+ */
+
+#service_logo {
+	margin-top:80px;
+	margin-bottom:100px;
+}
+
+#service_logo #square {
+	width: 220px;
+	height: 143px;
+	background: rgb(207,87,85);
+	display:inline-block;
+}
+
+#service_logo #abbreviation {
+	width: 100%;
+	height: 97%;
+	padding-top:3%;
+	text-align: center;
+}
+
+#service_logo #remaining_words {
+	padding-left: 7px;
+	display:inline-block;
+}
+
+#services {
+	margin-bottom: 60px;
+}
+
+#services .person {
+	margin-bottom: 0px;
+}
+#services .bullet {
+	margin-bottom:20px;
+}
+#services .name {
+	margin-bottom:0px;
+}
+#services .links {
+	margin-bottom:5px;
+}
+
+/*
+ *Contact Contact Contact Contact Contact Contact Contact Contact 
+ */
+
+#contact_logo {
+	margin-top:80px;
+	margin-bottom:100px;
+}
+
+#contact_logo #square {
+	width: 310px;
+	height: 143px;
+	background: rgb(207,87,85);
+	display:inline-block;
+}
+
+#contact_logo #abbreviation {
+	width: 100%;
+	height: 97%;
+	padding-top:3%;
+	text-align: center;
+}
+
+#contact_logo #remaining_words {
+	padding-left: 7px;
+	display:inline-block;
+}
+
+#contact .person {
+	margin-bottom: 0px;
+}
+#contact .bullet {
+	margin-bottom:20px;
+}
+#contact .name {
+	margin-bottom:0px;
+}
+
+#contact .links {
+	margin-bottom:5px;
+}
 
