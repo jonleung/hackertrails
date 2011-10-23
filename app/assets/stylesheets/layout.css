@@ -24,25 +24,25 @@
  *Home Home Home Home Home Home Home Home Home Home 
  */
 #home_logo{
-	margin-top:70px;
-	margin-bottom:90px;
+	margin-top:80px;
+	margin-bottom:130px;
 }
 
-.logo #pt_square {
+.logo #square {
 	width: 143px;
 	height: 143px;
 	background: rgb(207,87,85);
 	display:inline-block;
 }
 
-.logo #pt {
+.logo #abbreviation {
 	width: 100%;
 	height: 93%;
 	padding-top:7%;
 	text-align: center;
 }
 
-.logo #consultants {
+.logo #remaining_words {
 	padding-left: 7px;
 	display:inline-block;
 }

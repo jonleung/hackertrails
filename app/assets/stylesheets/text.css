@@ -1,18 +1,19 @@
 /*
- *Navigation Navigation Navigation Navigation Navigation 
+ *Globals  Globals  Globals  Globals  Globals  Globals  
  */
-#nav a, #bottom_row .heading, #bios .text .name {
-	font-family: 'Quicksand';
-	letter-spacing: -3px;
-	font-size: 36px;
-}
-
-#nav li {
-	color: rgb(64,64,64);
-}
 
 a {
 	text-decoration: none;
+}
+
+/*
+ *Navigation Navigation Navigation Navigation Navigation 
+ */
+
+#nav a {
+	font-family: 'Quicksand';
+	letter-spacing: -3px;
+	font-size: 36px;
 }
 
 #nav a:link, a:visited {
@@ -30,20 +31,27 @@ a {
 /*
  *Home Home Home Home Home Home Home Home Home Home 
  */
-.logo #pt, #consultants {
+
+.logo #abbreviation, #remaining_words {
 	font-family: 'Courier';
 	font-weight: normal;
 	font-size: 100px;
 	letter-spacing:-8px;
 }
-.logo #pt {
+.logo #abbreviation {
 	color: white;
 	letter-spacing:-1px;
 }
-.logo #consultants {
+.logo #remaining_words {
 	font-size: 65px;
 	color: rgb(207,87,85);
 	font-size: 100px;
+}
+
+#bottom_row .heading {
+	font-family: 'Quicksand';
+	letter-spacing: -3px;
+	font-size: 36px;
 }
 
 #bottom_row .heading, #bios .name {
@@ -62,6 +70,12 @@ a {
 /*
  *Team Bios Team Bios Team Bios Team Bios Team Bios Team Bios Team Bios
  */
+
+#bios .text .name {
+	font-family: 'Quicksand';
+	letter-spacing: -3px;
+	font-size: 36px;
+}
 
 #bios .links a{
 	color: rgb(207,87,85);
