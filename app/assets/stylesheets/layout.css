@@ -25,7 +25,7 @@
  */
 #home_logo{
 	margin-top:80px;
-	margin-bottom:130px;
+	margin-bottom:110px;
 }
 
 .logo #square {
@@ -42,7 +42,7 @@
 	text-align: center;
 }
 
-.logo #remaining_words {
+#home_logo #remaining_words {
 	padding-left: 7px;
 	display:inline-block;
 }
@@ -56,18 +56,27 @@
  */
 
 #team_logo {
-	margin-top:40px;
+/*	margin-top:40px;
+	margin-bottom:90px;*/
+	margin-top:80px;
 	margin-bottom:90px;
 }
 
+#team_logo #remaining_words {
+	display:inline-block;
+}
+
 #bios .person {
-	margin-bottom: 80px;
+	margin-bottom: 0px;
+}
+#bios .text {
+	padding-top:7%;
 }
 #bios .name {
-	margin-bottom:10px;
+	margin-bottom:0px;
 }
 #bios .links {
-	text-align: right;
+	margin-bottom:5px;
 }
 
 

@@ -74,14 +74,14 @@ a {
 #bios .text .name {
 	font-family: 'Quicksand';
 	letter-spacing: -3px;
-	font-size: 36px;
+	font-size: 52px;
 }
 
 #bios .links a{
 	color: rgb(207,87,85);
 	font-family: 'Quicksand';
 	letter-spacing: -1px;
-	font-size: 18px;
+	font-size: 30px;
 }
 
 #bios .links a:hover, a:active {
