@@ -1,0 +1,88 @@
+<%= render 'nav', :locals => { :page => 'team'} %>
+
+<div class="grid_24" id="team">
+	
+	
+	
+	
+	
+	<div class="logo grid_24" id="team_logo">
+		<h1> 
+			<!-- <div id="pt_square">
+				<div id="pt">Hi</div>
+			</div> -->
+			<div id="consultants">
+				Meet the Team
+			</div>
+		</h1>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<!-- <div class="alpha grid_24" id="team_logo">
+		<h1> Meet The Team
+		</h1>
+	</div> -->
+
+	<div class="grid_24" id="bios">
+		
+		<div class="person alpha grid_12">
+			<h2 class="name">
+				Alexey Komissarouk
+			</h2>
+			<p class="description">
+				<%= alexey_description %>
+			</p>
+			<p class="links">
+				<%= link_to 'alexeymk.com', 'http://alexeymk.com', :target => "_blank" %>
+			</p>
+		</div>
+		<div class="photo grid_12 omega">
+			<%= image_tag("http://src.sencha.io/x18/http://www.6wunderkinder.com/wp-content/themes/6wunderkinder/img/about/christian-reber.png") %>
+		</div>
+		
+		<div class="person alpha prefix_12 grid_12 ">
+			<h2 class="name">
+				Dan Shipper
+			</h2>
+			<p class="description">
+				<%= dan_description %>
+			</p>
+			<p class="links">
+				<%= link_to 'danshipper.com', 'http://danshipper.com', :target => "_blank" %>
+			</p>
+		</div>
+		<div class="photo grid_12 omega">
+			
+		</div>
+		
+		<div class="person alpha grid_12 suffix_12">
+			<h2 class="name">
+				Jonathan Leung
+			</h2>
+			<p class="description">
+				<%= jonathan_description %>
+			</p>
+			<p class="links">
+				<%= link_to 'jonathanjl.com', 'http://jonathanjl.com', :target => "_blank" %>
+			</p>
+		</div>
+		
+		<div class="person alpha prefix_12 grid_12">
+			<h2 class="name">
+				Patrick Leahy
+			</h2>
+			<p class="description">
+				<%= patrick_description %>
+			</p>
+			<p class="links">
+				<%= link_to 'linkedin', 'http://www.linkedin.com/in/pleahy16', :target => "_blank" %>
+			</p>
+		</div>
+		
+	</div>
+</div>

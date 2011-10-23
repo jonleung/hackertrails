@@ -1,0 +1,73 @@
+/*
+ *Navigation Navigation Navigation Navigation Navigation 
+ */
+#nav {
+	margin-top: 65px;
+}
+
+#nav ol {
+	list-style: none;
+}
+
+#nav li a {
+	display: block;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	text-align: center;	
+}
+
+#nav li.first a {
+	text-align: left;
+}
+
+/*
+ *Home Home Home Home Home Home Home Home Home Home 
+ */
+#home_logo{
+	margin-top:70px;
+	margin-bottom:90px;
+}
+
+.logo #pt_square {
+	width: 143px;
+	height: 143px;
+	background: rgb(207,87,85);
+	display:inline-block;
+}
+
+.logo #pt {
+	width: 100%;
+	height: 93%;
+	padding-top:7%;
+	text-align: center;
+}
+
+.logo #consultants {
+	padding-left: 7px;
+	display:inline-block;
+}
+
+#bottom_row .heading {
+	margin-bottom: 10px;
+}
+
+/*
+ *Team Bios Team Bios Team Bios Team Bios Team Bios Team Bios Team Bios
+ */
+
+#team_logo {
+	margin-top:40px;
+	margin-bottom:90px;
+}
+
+#bios .person {
+	margin-bottom: 80px;
+}
+#bios .name {
+	margin-bottom:10px;
+}
+#bios .links {
+	text-align: right;
+}
+
+
