@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Pconsultants</title>
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
+	<title>Pconsultants</title>
+	<%= stylesheet_link_tag    "application" %>
+	<link <link href='http://fonts.googleapis.com/css?family=Questrial|Arimo|Quicksand|Josefin+Sans:300,400|Cantarell|Terminal+Dosis:400,200,300|Molengo|Varela+Round|Quattrocento+Sans' rel='stylesheet' type='text/css'>
+	
+	<%= javascript_include_tag "application" %>
+	<%= csrf_meta_tags %>
 </head>
 <body>
-	
-<div class="container_24">
-	<%= yield %>
-</div>
+
+	<div class="container_24">
+		<%= yield %>
+	</div>
 
 </body>
 </html>

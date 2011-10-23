@@ -6,6 +6,11 @@ class StaticController < ActionController::Base
   end
   
   def team
+    puts "asdfasefasd"
+  end
+  
+  def team_alt
+    puts "afwesdfavsd"
   end
   
   def service

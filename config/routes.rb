@@ -2,6 +2,7 @@ Ptconsultants::Application.routes.draw do
   
   root :to => 'static#home'
   match 'team' => 'static#team', :via => :get, :as => :team
+  match 'teamalt' => 'static#team_alt', :via => :get, :as => :team_alt
   match 'service' => 'static#service', :via => :get, :as => :service
   match 'contact' => 'static#contact', :via => :get, :as => :contact
   

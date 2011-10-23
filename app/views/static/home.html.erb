@@ -1,65 +1,38 @@
-<%= render 'nav' %>
-<div id="home_container">
+<%= render 'nav', :locals => { :page => 'home'} %>
+<div class="grid_24" id="home">
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div id="home_logo">
-		
-		<div class="intro"><p>
-
-		<a href="/about" title="About PennApps">PennApps</a> is a 48-hour <a href="http://en.wikipedia.org/wiki/Hackathon" title="Wikipedia article about hackathons">hackathon</a> where university students came together to build <a href="http://teams.2011f.pennapps.com/" title="PennApps Fall 2011 Teams">awesome things</a>. <a href="/about">Learn more &raquo;</a>
-
-		</p></div><!--/.intro-->
-		<div class="sign-up">
-
-		<a href="http://teams.2011f.pennapps.com/">See the apps!</a>
-
-		</div><!--/.sign-up-->
-		
+	<div class="logo grid_24" id="home_logo">
+		<h1> 
+			<div id="pt_square">
+				<div id="pt">PT</div>
+			</div>
+			<div id="consultants">
+				Consulting
+			</div>
+		</h1>
 	</div>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<div id="home_bottom_row">
-		<div class="home_bottom_cell">
-			<h2>
-				who we are
-			</h2>
-			<p>
-				We are experienced programmers who will be able to give you advice for your business. <%= link_to 'Meet the Team', team_path %>
-			</p>
-		</div>
-		<div class="home_bottom_cell">
-			<h2>
+
+	<div class="grid_24" id="bottom_row">
+		
+		<div class="col alpha grid_8">
+			<h2 class="heading">
 				what we do
 			</h2>
-			<p>
-				We will help figure out what technical tools that you need to get the job done. <%= link_to 'How We Can Help', service_path %>
+			<p class="description grid_8">
+				We will help figure out what technical tools 
+				that you need to get the job done.
 			</p>
 		</div>
-	</div>
-	
-</div>
+		
+		<div class="col prefix_2 grid_8 suffix_6 omega">
+			<h2 class="heading">
+				who we are
+			</h2>
+			<p class="description grid_8">
+				We are experienced programmers who will be able
+				to give you advice for your business.
+			</p>
+		</div>
+		
+	</div><!--#bottom_row -->
+</div><!--#home-->

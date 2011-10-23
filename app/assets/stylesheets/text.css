@@ -1,86 +1,83 @@
 /*
-  960 Grid System ~ Text CSS.
-  Learn more ~ http://960.gs/
-
-  Licensed under GPL and MIT.
-*/
-
-/* `Basic HTML
-----------------------------------------------------------------------------------------------------*/
-
-body {
-  font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+ *Navigation Navigation Navigation Navigation Navigation 
+ */
+#nav a, #bottom_row .heading, #bios .text .name {
+	font-family: 'Quicksand';
+	letter-spacing: -3px;
+	font-size: 36px;
 }
 
-pre,
-code {
-  font-family: 'DejaVu Sans Mono', Menlo, Consolas, monospace;
+#nav li {
+	color: rgb(64,64,64);
 }
 
-hr {
-  border: 0 #ccc solid;
-  border-top-width: 1px;
-  clear: both;
-  height: 0;
+a {
+	text-decoration: none;
 }
 
-/* `Headings
-----------------------------------------------------------------------------------------------------*/
-
-h1 {
-  font-size: 25px;
+#nav a:link, a:visited {
+	color: rgb(150,150,150);
 }
 
-h2 {
-  font-size: 23px;
+#nav #active a{
+	color: rgb(64,64,64);
 }
 
-h3 {
-  font-size: 21px;
+#nav a:hover, a:active {
+	color: rgb(207,87,85);
 }
 
-h4 {
-  font-size: 19px;
+/*
+ *Home Home Home Home Home Home Home Home Home Home 
+ */
+.logo #pt, #consultants {
+	font-family: 'Courier';
+	font-weight: normal;
+	font-size: 100px;
+	letter-spacing:-8px;
+}
+.logo #pt {
+	color: white;
+	letter-spacing:-1px;
+}
+.logo #consultants {
+	font-size: 65px;
+	color: rgb(207,87,85);
+	font-size: 100px;
 }
 
-h5 {
-  font-size: 17px;
+#bottom_row .heading, #bios .name {
+	font-weight: normal;	
+	color: rgb(64,64,64);
 }
 
-h6 {
-  font-size: 15px;
+#bottom_row .description, #bios .text {
+	font-family: 'Quicksand';
+	letter-spacing: -1px;
+	font-size: 18px;
+	
+	color: rgb(120,120,120);
 }
 
-/* `Spacing
-----------------------------------------------------------------------------------------------------*/
+/*
+ *Team Bios Team Bios Team Bios Team Bios Team Bios Team Bios Team Bios
+ */
 
-ol {
-  list-style: decimal;
+#bios .links a{
+	color: rgb(207,87,85);
+	font-family: 'Quicksand';
+	letter-spacing: -1px;
+	font-size: 18px;
 }
 
-ul {
-  list-style: disc;
+#bios .links a:hover, a:active {
+	color: rgb(207,87,85);
 }
 
-li {
-  margin-left: 30px;
+#bios .text {
+	line-height: 1.5;
 }
 
-p,
-dl,
-hr,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ol,
-ul,
-pre,
-table,
-address,
-fieldset,
-figure {
-  margin-bottom: 20px;
+#bios .photo {
+	text-align: center;
 }
