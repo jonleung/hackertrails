@@ -35,8 +35,8 @@ a {
 .logo #abbreviation, #remaining_words {
 	font-family: 'Courier';
 	font-weight: normal;
-	font-size: 100px;
-	letter-spacing:-8px;
+	font-size: 60px;
+	letter-spacing:-1px;
 }
 .logo #abbreviation {
 	color: white;
@@ -45,7 +45,7 @@ a {
 .logo #remaining_words {
 	font-size: 65px;
 	color: rgb(207,87,85);
-	font-size: 100px;
+	font-size: 60px;
 }
 
 .logo #abbreviation #apostrophe {

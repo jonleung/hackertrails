@@ -8,7 +8,7 @@ body {
  *Navigation Navigation Navigation Navigation Navigation 
  */
 #nav {
-	margin-top: 65px;
+	margin-top: 20px;
 }
 
 #nav ol {
@@ -30,21 +30,21 @@ body {
  *Home Home Home Home Home Home Home Home Home Home 
  */
 #home_logo{
-	margin-top:80px;
+	margin-top:30px;
 	margin-bottom:110px;
 }
 
 #home_logo #square {
-	width: 143px;
-	height: 143px;
+	width: 350px;
+	height: 80px;
 	background: rgb(207,87,85);
 	display:inline-block;
 }
 
 #home_logo #abbreviation {
 	width: 100%;
-	height: 93%;
-	padding-top:7%;
+	height: 99%;
+	padding-top:1%;
 	text-align: center;
 }
 

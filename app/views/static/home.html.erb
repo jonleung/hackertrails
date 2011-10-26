@@ -1,38 +1,130 @@
 <%= render 'nav', :locals => { :page => 'home'} %>
 <div class="grid_24" id="home">
-	
+
 	<div class="logo grid_24" id="home_logo">
 		<h1> 
 			<div id="square">
-				<div id="abbreviation">PT</div>
+				<div id="abbreviation">Syntactic</div>
 			</div>
 			<div id="remaining_words">
-				Consulting
+				Sugar
 			</div>
 		</h1>
 	</div>
 
 	<div class="grid_24" id="bottom_row">
-		
-		<div class="col alpha grid_8">
+
+		<div class="col grid_10 suffix_14">
 			<h2 class="heading">
 				what we do
 			</h2>
-			<p class="description grid_8">
-				We will help figure out what technical tools 
-				that you need to get the job done.
+			<p class="description grid_7">
+				Do you have a startup and want to talk to someone
+				with more technical experience?
+				Our seasoned programmers are here to help.
 			</p>
+
 		</div>
-		
-		<div class="col prefix_2 grid_8 suffix_6 omega">
-			<h2 class="heading">
-				who we are
+
+		<!-- <div class="col prefix_1 grid_7 suffix_1 omega">
+		<h2 class="heading">
+		who we are
+		</h2>
+		<p class="description grid_7">
+		We've been hacking on projects for years,
+		and we know what works and what doesn't.
+		Sign up to meet with one of our consultants,
+		and we'll give you feedback on everything from
+		what language to use, to how to find coders,
+		to what the likely obstacles you will run into.
+		</p>
+		</div>
+
+
+-->
+<div class="col grid_7">
+	<h2 class="heading">
+		get in touch
+	</h2>
+	<p class="description">
+		Fill out the information here to setup
+		a meeting with one of your consultants.
+		We charge $30 per session over coffee.
+	</p>
+</div> 
+
+<div class="grid_24" id="bios">
+
+	<div class="alpha person grid_24">
+		<div class="alpha text grid_12">
+			<h2 class="name">
+				Alexey Komissarouk
 			</h2>
-			<p class="description grid_8">
-				We are experienced programmers who will be able
-				to give you advice for your business.
+			<p class="links">
+				<%= link_to 'alexeymk.com', 'http://alexeymk.com', :target => "_blank" %>
+			</p>
+			<p class="description">
+				<%= alexey_description %>
 			</p>
 		</div>
-		
-	</div><!--#bottom_row -->
+		<div class="omega photo grid_12">
+			<%= image_tag("http://src.sencha.io/x18/http://www.6wunderkinder.com/wp-content/themes/6wunderkinder/img/about/christian-reber.png") %>
+		</div>
+	</div>	
+
+	<div class="person grid_24">
+		<div class="alpha photo grid_12">
+			<%= image_tag("http://src.sencha.io/x25/http://www.6wunderkinder.com/wp-content/themes/6wunderkinder/img/about/sebastian-scheerer-new.png") %>
+		</div>
+		<div class="omega text grid_12">
+			<h2 class="name">
+				Dan Shipper
+			</h2>
+			<p class="links">
+				<%= link_to 'danshipper.com', 'http://danshipper.com', :target => "_blank" %>
+			</p>
+			<p class="description">
+				<%= dan_description %>
+			</p>
+		</div>
+	</div>
+
+	<div class="person grid_24">
+		<div class="alpha text grid_12 ">
+			<h2 class="name">
+				Jonathan Leung
+			</h2>
+			<p class="links">
+				<%= link_to 'jonathanjl.com', 'http://jonathanjl.com', :target => "_blank" %>
+			</p>
+			<p class="description">
+				<%= jonathan_description %>
+			</p>
+		</div>
+		<div class="omega photo grid_12">
+			<%= image_tag("http://src.sencha.io/x25/http://www.6wunderkinder.com/wp-content/themes/6wunderkinder/img/about/dennis-schneider.png") %>
+		</div>
+	</div>
+
+	<div class="omega person grid_24">
+		<div class="omega photo grid_12">
+			<%= image_tag("http://src.sencha.io/x25/http://www.6wunderkinder.com/wp-content/themes/6wunderkinder/img/about/marcus-benoit.png") %>
+		</div>
+
+		<div class="alpha text grid_12">
+			<h2 class="name">
+				Patrick Leahy
+			</h2>
+			<p class="links">
+				<%= link_to 'linkedin', 'http://www.linkedin.com/in/pleahy16', :target => "_blank" %>
+			</p>
+			<p class="description">
+				<%= patrick_description %>
+			</p>
+		</div>
+	</div>
+
+</div>
+
+</div><!--#bottom_row -->
 </div><!--#home-->
