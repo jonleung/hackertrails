@@ -15,7 +15,7 @@ module ApplicationHelper
   end
   
   def jonathan_description()
-    %q{My name is Jonathan Leung and I love making things! I am part Engineer, Composer, and Entrepreneur. My goal in life is to make people fundamentally happier. Naïve? Probably. Will I still try? Definitely. I am learning how to make things at The University of Pennsylvania. My goal in life is to make people fundamentally happier. Naïve? Probably. My goal in life is to make people fundamentally happier. Naïve? Probably. Will I still try?}.html_safe
+    %q{My name is Jonathan Leung and I love making things! I am part Engineer, Composer, and Entrepreneur. My goal in life is to make people fundamentally happier. Naive? Probably. Will I still try? Definitely. I am learning how to make things at The University of Pennsylvania. My goal in life is to make people fundamentally happier. Naive? Probably. My goal in life is to make people fundamentally happier. Naive? Probably. Will I still try?}.html_safe
   end
   
   def patrick_description()

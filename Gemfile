@@ -4,14 +4,9 @@ gem 'rails', '3.1.1'
 gem 'sqlite3'
 gem 'json'
 
-group :development do
-  gem 'ruby-debug'
-end
-
-group :production do
-  gem 'therubyracer-heroku', '0.8.1.pre3' # you will need this too
-  gem 'pg'
-end
+# group :development do
+#   gem 'ruby-debug1'
+# end
 
 # Gems used only for assets and not required
 # in production environments by default.
