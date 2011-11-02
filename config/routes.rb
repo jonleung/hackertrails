@@ -6,6 +6,7 @@ Hackertrails::Application.routes.draw do
   match 'service' => 'static#about', :via => :get, :as => :about
   match 'contact' => 'static#contact', :via => :get, :as => :contact
   
+  match "ihazwebskillz" => redirect("https://docs.google.com/spreadsheet/viewform?hl=en_US&formkey=dFBFSFpLbDZMbGhjMzg0RWJ4d1JsbHc6MQ#gid=0")
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
