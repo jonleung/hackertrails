@@ -5,7 +5,11 @@
 		<p>First Class: HTML, CSS, &amp; Javascript</p>
 	</h1>
 	<h2 class="subtitle grid_24" id="">
+<<<<<<< HEAD
+		<p>Thursday November 10th at 6pm - 9pm. Loc TBA</p>
+=======
 		<p><u>Thursday</u> November 10th at 6pm - 9pm. Loc TBA</p>
+>>>>>>> 26978cf4b726edf7082f670d0461f30ea7bef60d
 	</h2>
 	<h3 class="description grid_16 suffix_8" id="">
 		<p>
@@ -22,16 +26,11 @@
 			Do you like <strong>Cookies</strong>? We have those too!
 		</p>
 		<br>
-
-		<div class="logo" id="rsvp">
-			<a href="https://www.facebook.com/event.php?eid=122060137902712">
-				<h1> 
-					<div class="square">
-						<div class="inner_text">RSVP Now</div>
-					</div>
-				</h1>
-			</a>
-		</div>
+		<p>
+<strong>			<a href="https://www.facebook.com/event.php?eid=122060137902712" target="_blank"> RSVP Here</a> </strong>
+		</p>
+		<br>
+		
 		<p>
 			Also, please install the following before you come:
 		</p>
