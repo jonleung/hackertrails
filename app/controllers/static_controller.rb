@@ -5,7 +5,7 @@ class StaticController < ActionController::Base
   def home
   end
   
-  def theclass
+  def class
   end
   
   def trail

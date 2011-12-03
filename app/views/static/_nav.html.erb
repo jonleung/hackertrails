@@ -13,14 +13,14 @@
 				</div>
 			</a>
 		</li>
-		<li class="grid_3" <%= is_active('class', locals[:page]) %> >
-			<%= link_to 'class', theclass_path %>
-		</li>
 		<li class="grid_3" <%= is_active('trail', locals[:page]) %> >
 			<%= link_to 'trail', trail_path %>
 		</li>
+		<li class="grid_3" <%= is_active('class', locals[:page]) %> >
+			<%= link_to 'class', class_path %>
+		</li>
 		<li class="grid_3" <%= is_active('about', locals[:page]) %> >
-			<%= link_to 'about', about_path %>
+			<%= link_to 'why', why_path %>
 		</li>
 		<li class="grid_3 omega" <%= is_active('contact', locals[:page]) %> >
 			<%= link_to 'contact', contact_path %>

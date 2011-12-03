@@ -1,9 +1,9 @@
 Hackertrails::Application.routes.draw do
   
   root :to => 'static#home'
-  match 'class' => 'static#theclass', :via => :get, :as => :theclass
   match 'trail' => 'static#trail', :via => :get, :as => :trail
-  match 'service' => 'static#about', :via => :get, :as => :about
+  match 'class' => 'static#class', :via => :get, :as => :class
+  match 'why' => 'static#why', :via => :get, :as => :why
   match 'contact' => 'static#contact', :via => :get, :as => :contact
   
   match "ihazwebskillz" => redirect("https://docs.google.com/spreadsheet/viewform?hl=en_US&formkey=dFBFSFpLbDZMbGhjMzg0RWJ4d1JsbHc6MQ#gid=0")

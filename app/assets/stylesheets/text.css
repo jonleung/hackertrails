@@ -35,13 +35,24 @@ a {
 	
 }
 
+/*#title {
+	font-family: 'Quicksand';
+	letter-spacing: -1px;
+	font-size: 25px;
+	font-size: 42px;
+	letter-spacing: -3px;
+	text-align: left;
+	font-weight: normal;
+	color: rgb(77,74,38);
+}*/
+
 /* Home Home Home Home Home Home Home Home Home Home */
 
 .paragraph .title{
 	font-family: 'Courier';
 	font-weight: normal;
 	font-size: 47px;
-	letter-spacing:-3px;
+	letter-spacing:-1px;
 	color: rgb(128,173,38);
 }
 
