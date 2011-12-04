@@ -1,0 +1,39 @@
+$light_gray : rgb(150,150,150);
+$dark_gray : rgb(80,80,80);
+$green : rgb(128,173,38);
+$brown : rgb(122,113,0);
+$background : rgb(255,255,245);
+$background_dark: rgb(51,0, 0); //Works but red: 51, 0, 0 //Orig Brown: 50,40,35
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background: $background;
+}
+
+@mixin quicksand {
+	font-family: 'Quicksand';
+	letter-spacing: -1px;
+}
+@mixin courier {
+	font-family: 'Courier';
+	font-weight: normal;
+}
+
+@mixin background_gradient($start_y, $height_y, $start_color, $end_color){
+	z-index:-1;
+	position:absolute;
+	top:700px;
+	padding-top:900px;
+	width:100%;
+	right: 0px;
+	
+	/* IE10 */ 	background-image: -ms-linear-gradient(top, $start_color 0%, $end_color 100%);
+	/* Mozilla Firefox */ 	background-image: -moz-linear-gradient(top, $start_color 0%, $end_color 100%);
+	/* Opera */ 	background-image: -o-linear-gradient(top, $start_color 0%, $end_color 100%);
+	/* Webkit (Safari/Chrome 10) */ 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, $start_color), color-stop(1, $end_color));
+	/* Webkit (Chrome 11+) */ 	background-image: -webkit-linear-gradient(top, $start_color 0%, $end_color 100%);
+	/* Proposed W3C Markup */ 	background-image: linear-gradient(top, $start_color 0%, $end_color 100%);
+}

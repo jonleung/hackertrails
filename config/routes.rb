@@ -1,8 +1,8 @@
 Hackertrails::Application.routes.draw do
   
-  root :to => 'static#home'
+  root :to => 'static#home', :as => :home
   match 'trail' => 'static#trail', :via => :get, :as => :trail
-  match 'class' => 'static#class', :via => :get, :as => :class
+  match 'class' => 'static#daclass', :via => :get, :as => :class
   match 'why' => 'static#why', :via => :get, :as => :why
   match 'contact' => 'static#contact', :via => :get, :as => :contact
   

@@ -1,0 +1,53 @@
+@import 'global';
+
+#nav {
+	
+	margin-top: 30px;
+	@include quicksand;
+	
+	ol {
+		
+		margin:0px;
+		padding:0px;
+		list-style: none;
+		
+		a, li a span {
+				&:link, &:visited {	color: $light_gray;}
+				&:hover, &:active {	color: $green;}
+		}
+		
+		#hackertrails_logo {
+			#hackertrails {
+				font-size: 42px;
+				letter-spacing: -3px;
+				text-align: left;
+			}
+			#alpha {
+				margin-left:-3px;
+				font-size:18px;
+				letter-spacing:-2px;
+			}
+		}
+
+		li {
+
+			&.logo a {
+				text-align: left;
+				padding-top:0px;
+			}
+			
+			&.link a {
+				font-size: 25px;
+				
+				display: block;
+				padding-top: 14px;
+				padding-bottom: 14px;
+				text-align: left;
+				padding-top:18px;
+			}
+			
+			&#active a { color: $dark_gray;}
+		}
+	}
+	
+}

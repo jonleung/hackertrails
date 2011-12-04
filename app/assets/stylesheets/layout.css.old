@@ -1,50 +1,29 @@
-/* Global Global Global Global Global Global Global */
-
-body {
-	background: rgb(255,255,245);
-}
-
-/* Navigation Navigation Navigation Navigation Navigation */
-
-#nav { margin-top: 30px; }
-
-#nav ol { 
-	margin:0px;
-	padding:0px;
-	list-style: none;
-}
-
-#nav li a {
+/*#nav li a {
 	display: block;
-	padding-top: 14px;
-	padding-bottom: 14px;
-	text-align: left;
-	padding-top:18px;	
-}
+		padding-top: 14px;
+		padding-bottom: 14px;
+		text-align: left;
+		padding-top:18px;	
+}*/
 
-#nav li.first a {
+/*#nav li.logo a {
 	text-align: left;
 	padding-top:0px;		
-}
+}*/
 
 /* Home Home Home Home Home Home Home Home Home Home */
 
-.paragraph .title {
-	margin-top:60px;
+/*.paragraph .title {
+	
 }
 
 .paragraph .subtitle {
 	margin-top:5px;
-}
+}*/
 
-.paragraph .description {
-	margin-top:20px;
-	font-weight:normal;
-}
+/*.paragraph .description {
 
-.paragraph#bottom {
-	margin-bottom:100px;
-}
+}*//*
 
 .logo .square {
 	width: 220px;
@@ -75,11 +54,11 @@ body {
 #rsvp {
 	margin-top:0px;
 	margin-bottom:15px;
-}
+}*/
 
-#bottom_row .heading {
+/*#bottom_row .heading {
 	margin-bottom: 10px;
 }
-
+*/
 
 

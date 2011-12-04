@@ -1,0 +1,22 @@
+@import 'global';
+
+#gradient {
+	@include background_gradient(700px, 900px, $background, $background_dark);
+}
+#solid {
+	position:absolute;
+	top:1600px;
+	padding-top:800px;
+	z-index:-1;
+	width:100%;
+	right: 0px;
+	background: $background_dark;
+}
+
+
+
+
+
+
+
+

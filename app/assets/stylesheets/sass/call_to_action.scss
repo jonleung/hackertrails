@@ -1,0 +1,25 @@
+@import 'global';
+
+.call_to_action {
+	
+	@include courier;
+	
+	margin-top: 37px;
+	font-size: 30px;
+	vertical-align: left;
+	
+	.button {
+		padding: 7px 20px;
+		background: $brown;
+		color: white;
+		
+		&.hover {	background: $green;}
+		&.active { }
+	}
+	
+	.after_button {
+		color: $brown;
+		margin-left:-10px;
+	}
+	
+}

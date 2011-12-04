@@ -1,28 +1,23 @@
 <div class="grid_24" id="nav">
 	<ol>
-		<li class="first alpha grid_8 suffix_4" <%= is_active('home', locals[:page]) %> >
+		<li class="logo alpha grid_8 suffix_4" <%= is_active('home', locals[:page]) %> >
 			<a href="/" id="home"> 
-				<div>
-					<span id="trails">HackerTrails</span>
-					<span id="beta"style="
-								margin-left:-3px;
-								font-size:18px;
-								letter-spacing:-2px;">
-						[alpha]
-					</span>
+				<div id="hackertrails_logo">
+					<span id="hackertrails">HackerTrails</span>
+					<span id="alpha">[alpha]</span>
 				</div>
 			</a>
 		</li>
-		<li class="grid_3" <%= is_active('trail', locals[:page]) %> >
+		<li class="link grid_3" <%= is_active('trail', locals[:page]) %> >
 			<%= link_to 'trail', trail_path %>
 		</li>
-		<li class="grid_3" <%= is_active('class', locals[:page]) %> >
+		<li class="link grid_3" <%= is_active('class', locals[:page]) %> >
 			<%= link_to 'class', class_path %>
 		</li>
-		<li class="grid_3" <%= is_active('about', locals[:page]) %> >
+		<li class="link grid_3" <%= is_active('about', locals[:page]) %> >
 			<%= link_to 'why', why_path %>
 		</li>
-		<li class="grid_3 omega" <%= is_active('contact', locals[:page]) %> >
+		<li class="link grid_3 omega" <%= is_active('contact', locals[:page]) %> >
 			<%= link_to 'contact', contact_path %>
 		</li>
 	</ol>

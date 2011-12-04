@@ -1,11 +1,11 @@
-class StaticController < ActionController::Base
-  
-  layout "application"
-  
+class StaticController < ApplicationController
+    
   def home
+    
   end
   
-  def class
+  def daclass
+    render :class
   end
   
   def trail

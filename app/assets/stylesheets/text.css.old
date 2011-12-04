@@ -1,10 +1,8 @@
-/* Globals  Globals  Globals  Globals  Globals  Globals */
-
+/*
 a {
 	text-decoration: none;
 }
 
-/* Navigation Navigation Navigation Navigation Navigation */
 
 #nav a {
 	font-family: 'Quicksand';
@@ -29,11 +27,9 @@ a {
 	letter-spacing: -3px;
 	text-align: left;
 	
-}
+}*/
 
-#nave #beta {
-	
-}
+
 
 /*#title {
 	font-family: 'Quicksand';
@@ -48,7 +44,7 @@ a {
 
 /* Home Home Home Home Home Home Home Home Home Home */
 
-.paragraph .title{
+/*.paragraph .title{
 	font-family: 'Courier';
 	font-weight: normal;
 	font-size: 47px;
@@ -62,42 +58,23 @@ a {
 	font-size: 30px;
 	letter-spacing:-3px;
 	color: rgb(120,120,120);
-}
+}*/
 
-.paragraph .description {
+/*.paragraph .description {
 	font-family: 'Quicksand';
 	letter-spacing: -1px;
 	font-size: 22px;
 	font-weight: 400;
 	color: rgb(120,120,120);
-}
+}*/
 
-.paragraph .description a {
+/*.paragraph .description a {
 	color:rgb(128,173,38);
-}
+}*/
 
-.logo .inner_text, .logo .remaining_words {
-	font-family: 'Courier';
-	font-weight: normal;
-	font-size: 30px;
-	letter-spacing:0px;
-}
-.logo .inner_text {
-	color: white;
-	letter-spacing:0px;	
-}
-.logo .remaining_words {
-	color: rgb(122,113,0);
-	font-size: 30px;
-}
 
-#bottom_row .heading {
-	font-family: 'Quicksand';
-	letter-spacing: -3px;
-	font-size: 36px;
-}
 
-#bottom_row .heading {
+/*#bottom_row .heading {
 	font-weight: normal;	
 	color: rgb(77,74,38);
 }
@@ -108,9 +85,9 @@ a {
 	font-size: 18px;
 	
 	color: rgb(120,120,120);
-}
+}*/
 
-#bottom_padding {
+/*#bottom_padding {
 	padding:50px;
 	margin:50px;
 }
@@ -118,3 +95,4 @@ a {
 #email {
 
 }
+*/

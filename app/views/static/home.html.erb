@@ -1,4 +1,7 @@
 <%= render 'nav', :locals => { :page => 'home'} %>
+
+
+
 <div class="grid_24" id="home">
 
 	<div class="paragraph alpha grid_24">
@@ -10,8 +13,7 @@
 		<h2 class="description alpha grid_14 suffix_10" id="">
 			<p>
 				You've come to the right place!
-			</p>
-			<p>
+			</p><p>
 				With beginners in mind,	we start from the very basics.
 			</p>
 			</br>
@@ -26,30 +28,20 @@
 			</p>			
 		</h2>
 	</div>
-
-	<div class="logo grid_24" id="home_logo">
-		<a href="#" class="scrollToBottom">
-			<h1> 
-				<div class="square">
-					<div class="inner_text">Learn More</div>
-				</div>
-
-				<div class="remaining_words">
-					
-				</div>
-			</h1>
-		</a>
-	</div>
-
-
-
-
-
-
-
-
-	<div style="margin-top:1000px;"></div>
 	
+  <div class="call_to_action grid_24">
+  	<a href="#" class="button scrollToBottom">Learn More</a>
+  </div>
+  
+
+
+
+
+
+
+
+
+	<div style="margin-top:1500px;">&nbsp;</div>
 	
 	
 	
@@ -61,9 +53,9 @@
 	<div class="paragraph alpha grid_24">    
     
     <h1 class="title alpha grid_24" id=""> 
-      <p>Follow The Trail</p>
+      <p>1) Follow The Trail</p>
     </h1>
-   <h3 class="description alpha grid_16 suffix_8" id="">
+   <h3 class="description alpha grid_16 suffix_8" id="white_text">
       <p>
         The <%= link_to 'Trail', trail_path %> is your guide that
         systematically takes you to the best resources
@@ -72,28 +64,19 @@
         your hand throughout the process.
       </p>
     </h3>
-    <div class="logo grid_24" id="home_logo">
-  		<a href="/trail">
-  			<h1> 
-  				<div class="square" style="width:200px;">
-  					<div class="inner_text">Start</div>
-  				</div>
-
-  				<div class="remaining_words">
-            the trail
-  				</div>
-  			</h1>
-  		</a>
-  	</div>
+    
+    <div class="call_to_action grid_24">
+    	<a href="/trail" class="button">Start</a>
+    	<a href="/trail" class="after_button">the trail</a>
+    </div>
       
     <h1 class="title alpha grid_24" id=""> 
-      <p>Come to The Class</p>
+      <p>2) Come to The Class</p>
     </h1>
-     <h3 class="description alpha grid_16 suffix_8" id="">
+     <h3 class="description white_text alpha grid_16 suffix_8" id="white_text">
         <p>
           Go to Penn or Live in the Philadelphia Area? 
         </p>
-        <br>
         <p>
           Come to the <%= link_to 'Class', class_path %> where
           we combine the best resources of the internet with the
@@ -101,26 +84,15 @@
           you through the learning process.
         </p>
       </h3>
-      <div class="logo grid_24" id="home_logo">
-    		<a href="/class">
-    			<h1> 
-    				<div class="square" style="width:200px;">
-    					<div class="inner_text">Signup</div>
-    				</div>
-
-    				<div class="remaining_words">
-              for the class
-    				</div>
-    			</h1>
-    		</a>
-    	</div>
+      
+      <div class="call_to_action grid_24">
+      	<a href="/class" class="button">Signup</a>
+      	<a href="/class" class="after_button">for the class</a>
+      </div>
    
   </div>
-  
-  
-  <div style="margin-bottom:200px;">&nbsp;</div>
-	
-	
-		
+	<div id="gradient"></div>
+	<div id="solid"></div>	
+    
 	</div><!--#bottom_row -->
 </div><!--#home-->
