@@ -4,12 +4,17 @@
 	
 	@include courier;
 	
-	margin-top: 37px;
+	margin-top: 0px;
 	font-size: 30px;
 	vertical-align: left;
 	
+
+	
 	.button {
-		padding: 7px 20px;
+		padding-top: 8px;
+		padding-bottom: 10px;
+		padding-left:20px;
+		padding-right:20px;
 		background: $brown;
 		color: white;
 		
